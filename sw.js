@@ -1,6 +1,7 @@
 // Offline support: serve cached files first, refresh the cache in the background.
-const CACHE = 'stitch-style-v1';
-const FILES = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-512.png'];
+const CACHE = 'stitch-style-v2';
+const FILES = ['./', './index.html', './style.css', './js/data.js', './js/art.js', './js/audio.js', './js/game.js',
+  './manifest.webmanifest', './icon-180.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
