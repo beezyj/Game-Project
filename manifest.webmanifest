@@ -1,0 +1,15 @@
+{
+  "name": "Stitch & Style",
+  "short_name": "Stitch&Style",
+  "description": "Run a little dress boutique: design, sew and grow your shop.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbf0ec",
+  "theme_color": "#fbf0ec",
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
